@@ -129,5 +129,5 @@ class Tester {
   Graph* createGraph(int n);
   bool cleanAndExit(Graph* G, bool b);
 
-  bool matrix_graph;
+  bool matrix_graph = false;
 };
